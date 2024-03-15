@@ -177,7 +177,7 @@ def center_of_gravity(pose_landmarks):
 
 def draw_center_of_gravity(frame, pose_landmarks):
     x_center, y_center = center_of_gravity(pose_landmarks)
-    cv2.circle(frame, (int(x_center*frame.shape[1]), int(y_center*frame.shape[0])), 5, (0, 0, 255), -1)
+    cv2.circle(frame, (int(x_center*frame.shape[1]), int(y_center*frame.shape[0])), 5, (255, 255, 0), -1)
 
 
 # Draw the tension of each limb (red arrows)
