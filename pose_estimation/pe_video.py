@@ -271,4 +271,4 @@ def get_angles(pose_landmarks):
     
 if __name__ == "__main__":
     detector = create_detector()
-    run_pose_estimation(detector, "pose_estimation/climb_video.mp4")
+    run_pose_estimation(detector, "./climb_video.mp4")
