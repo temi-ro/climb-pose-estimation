@@ -8,7 +8,10 @@ This project aims to develop a pose estimator in Python using the MediaPipe libr
 
 ## How to use:
 - Download all the libraries from *requirements.txt*.
-- Run the program.
+- Run the program:
+```
+python pe_video.py 
+```
 - Press 'space' to pause/unpause. 
 - Press 'q' to close the window.
 
